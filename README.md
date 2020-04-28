@@ -12,3 +12,8 @@ files in your local directory run
 ```python
 python main.py
 ```
+You can also run main with command line arguements
+Arg: Task List Name (The name of the task list you are trying to get task items for)
+```python
+python main.py GroceryList
+```
