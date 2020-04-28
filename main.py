@@ -43,30 +43,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
     
-
-        
-
-# def main(taskListName):
-#     if os.path.exists('token.pickle'):
-#         with open('token.pickle', 'rb') as token:
-#             creds = pickle.load(token)
-
-#     service = build('tasks', 'v1', credentials=creds)
-
-#     all_list = service.tasklists().list().execute()
-
-#     if not all_list['items']:
-#         print("Nothing found")
-#     else:
-#         for task_list in all_list['items']:
-#             if task_list['title'] == taskListName:
-#                 print(task_list['id'])
-
-# if __name__ == "__main__":
-#     main('Interviews')
